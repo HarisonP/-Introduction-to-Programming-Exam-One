@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// Wrong on so many levels, a puppy is crying somewhere cause of this code:
 int main3()
 {
 	int	array1[10];
@@ -11,3 +12,5 @@ int main3()
 
 	return 0;
 }
+
+// 0/(1.5 + 0)
