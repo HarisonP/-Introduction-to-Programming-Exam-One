@@ -2,7 +2,7 @@
 #include <cmath>
 
 using namespace std;
-
+//nicee
 int product(int x)
 {
 	int last_digit = x % 10;
@@ -22,7 +22,7 @@ int product(int x)
 	
 	return result;
 }
-
+//cool
 int change(int x)
 {
 	int copy = x;
@@ -55,7 +55,7 @@ int change(int x)
 	return result;
 
 }
-
+//wunderbar
 int reverse(int x)
 {
 	int size = 0;
@@ -89,13 +89,15 @@ int compare(int a, int b)
 	{
 		bigger = b;
 	}
-
+	//this cloud be just a < b ? return b : return
 	return bigger;
 }
 
-int main()
-{
+int main(){
+
 	int x;
+	// you probably cloud think of better names right :) usually first_xxx, second_xxx are not good names,
+	// cause actually then don't tell us something. This cloud be product_first_last_digits and changed_number  (reversed is ok) 
 	int first_result = 0;
 	int second_result = 0;
 	cin >> x;
@@ -104,8 +106,13 @@ int main()
 
 	first_result = product(x);
 	second_result = change(x);
-	
+	// you should comapere actually second result with recersed
+	// -0.1
 	cout << first_result << ' ' << second_result << ' ' << compare(x, reversed) << endl;
-
+	system("pause");
 	return 0;
 }
+// clean good , good functions 
+// + 0.1
+
+//score 2.0/(1.5 + 0.5)

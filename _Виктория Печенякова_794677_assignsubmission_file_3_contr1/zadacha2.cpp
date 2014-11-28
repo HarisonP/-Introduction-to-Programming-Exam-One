@@ -4,6 +4,8 @@ using namespace std;
 
 int main()
 {
+
+	// razlika is not ok.... :D
 	int v, first_symbol, last_symbol, razlika;
 	cin >> v;
 
@@ -27,3 +29,4 @@ int main()
 	system("pause");
 	return 0;
 }
+//score 0.5/(1.5 + 0.5)

@@ -6,6 +6,7 @@ using namespace std;
 
 int calculate(int x)
 {
+	// = something wloud be a great practice;
 	int function;
 
 	if (x <= 0)
@@ -18,6 +19,8 @@ int calculate(int x)
 	}
 	else if (x <= 39)
 	{
+		// what about sqrt x?
+		//-0.3
 		if (x % 2 != 0)
 		{
 			function = pow((double)x, 2) * (x - 1) * (x + 1);
@@ -35,7 +38,9 @@ int calculate(int x)
 
 	return function;
 }
-
+//goood :)
+// use function, clean code 
+// + 0.1
 
 int main1()
 {
@@ -54,3 +59,5 @@ int main1()
 
 	return 0;
 }
+
+//score 0.8 / 1.0

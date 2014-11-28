@@ -9,12 +9,14 @@ int difference(int n)
 
 	for (int i = 0; i <= n; ++i)
 	{
-		
+		// first digit here is always 0
+		// -0.2
 		first_digit = n % 10;
 		n /= 10;
 
 		
 	}
+
 	return first_digit - last_digit;
 	
 }
@@ -31,6 +33,7 @@ int change_numbers(int number)
 		{
 			digit /= 3;
 		}
+		// no need of (digit % 3 != 0)
 		else if ((digit % 3 != 0) && (digit % 2 == 0))
 		{
 			digit /= 2;
@@ -39,7 +42,9 @@ int change_numbers(int number)
 		{
 			digit += 2;
 		}
-		digit *= pow(10, i);
+		// pow expects double 
+		// repeatable error
+		digit *= pow(10.0, i);
 		new_number += digit;
 	}
 	return new_number;
@@ -55,7 +60,8 @@ int main()
 	int new_num;
 	new_num = change_numbers(x);
 	cout << new_num << endl;
-
+	// nope :) you have to write a reverse function to get points here
+	// -0.5
 	if (x > new_num)
 	{
 		cout << x;
@@ -68,3 +74,5 @@ int main()
 	system("pause");
 	return 0;
 }
+
+//score: 1.3/1.5 + 0.5

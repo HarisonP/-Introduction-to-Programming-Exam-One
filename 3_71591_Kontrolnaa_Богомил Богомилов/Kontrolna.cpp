@@ -20,6 +20,8 @@ int main1a()
 	// -0.2 points
 	else if (x > 0, x <= 8)
 	{
+		// pow expects double
+		// -0.1
 		y = abs((x * 2) * 5 + 2 * pow(x, 4));
 		cout << "The answer is :  " << y << endl;
 		return 0;
@@ -30,9 +32,11 @@ int main1a()
 	{
 		//oh god... any difference between == and = for you ? 
 		// so comma is && or is ||?
-		// -0.3 points
+		// -0.2 points
 		if (x = 9, x = 16, x = 25)
 		{
+			// sqrt expects double
+			// -0.1
 			y = sqrt(x);
 			cout << "The answer is :  " << y << endl;
 			return 0;
@@ -63,7 +67,7 @@ int main1a()
 	return 0;
 }
 
-//task1: 0.5/1.0
+//task1: 0.4/1.0
 
 int main2a()
 {
@@ -138,7 +142,7 @@ int main2b()
 //task 2:
 // score: 0.8/(1.5 + 0.5)
 
-//final:  0.5 + 0.8 == 3.3
+//final:  0.4 + 0.8 == 3.2
 
 
 

@@ -5,18 +5,20 @@ using namespace std;
 
 int* difference(int* first, int* second)
 {
+	
 	int third[100];
 	int result[5];
 	int counter = 0;
 	int size = 0;
-
-
+	
+	//magical constant - not a good practise :)
 	for (int i = 0; i < 5; i++)
 	{
 		for (int j = 0; j < 5; j++)
 		{
 			if ((first[i] != second[j]) && (second[j] % 2 == 0))
 			{
+				// third[counter ++] = second[j]; will also work :)
 				third[counter] = second[j];
 				counter++;
 			}
@@ -34,7 +36,9 @@ int* difference(int* first, int* second)
 			}
 		}
 	}
-
+	// you can not do this cause result is a local variable and it will be destroyed when the fucntion is finished.
+	// there is another way young padawan, but patient you must be... 
+	// -0.3
 	return result;
 }
 
@@ -67,6 +71,7 @@ void armstrong(int* first)
 	int copy;
 	int last_digit;
 	int size = 0;
+	// sum usually give us not enought info. this cloud be sum_of_armstrong 
 	int sum = 0;
 
 	for (int i = 0; i < 10; i++)
@@ -110,7 +115,11 @@ int main()
 
 	section(first_array, second_array);
 	int* arr =  difference(first_array, second_array);
-
 	armstrong(arr);
 	return 0;
 }
+//clean code, functions, 
+// + 0.1
+
+// score: 
+// 1.8/(1.5 + 0.5)
