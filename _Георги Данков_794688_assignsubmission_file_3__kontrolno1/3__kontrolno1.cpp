@@ -100,7 +100,7 @@ else if (last_digit % 2 != 0)
 last_digit += 2;
 p_copy = p_copy + last_digit*pow(10.0, i);
 }
-// p_copy = p_copy + last_digit*pow(10.0, i); cloud be once here :)
+// p_copy = p_copy + last_digit*pow(10.0, i); could be once here :)
 i++;
 p /= 10;
 }

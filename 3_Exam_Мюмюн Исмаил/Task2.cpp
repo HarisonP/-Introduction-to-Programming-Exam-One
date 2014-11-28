@@ -89,15 +89,15 @@ int compare(int a, int b)
 	{
 		bigger = b;
 	}
-	//this cloud be just a < b ? return b : return
+	//this could be just a < b ? return b : return
 	return bigger;
 }
 
 int main(){
 
 	int x;
-	// you probably cloud think of better names right :) usually first_xxx, second_xxx are not good names,
-	// cause actually then don't tell us something. This cloud be product_first_last_digits and changed_number  (reversed is ok) 
+	// you probably could think of better names right :) usually first_xxx, second_xxx are not good names,
+	// cause actually then don't tell us something. This could be product_first_last_digits and changed_number  (reversed is ok) 
 	int first_result = 0;
 	int second_result = 0;
 	cin >> x;

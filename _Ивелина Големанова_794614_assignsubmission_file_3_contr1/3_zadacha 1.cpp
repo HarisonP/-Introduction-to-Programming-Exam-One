@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-/*
+
 int main()
 {
 	int x, function;
@@ -11,6 +11,7 @@ int main()
 	{
 		function = pow((double)x, 3);
 		cout << function << endl;
+		//return 0;
 	}
 
 	else if (x > 0 && x <= 8)
@@ -21,11 +22,13 @@ int main()
 
 		function = abs(number_one + number_two);
 		cout << function << endl;
+		//return 0;
 	}
 
 	else if (x > 8 && x <= 25)
 	{
-
+		//nope :(
+		// -0.2
 		if (sqrt(x) == 0)
 		{
 			function = sqrt(x);
@@ -46,6 +49,7 @@ int main()
 
 		}
 		cout << function << endl;
+		//return 0;
 	}
 
 	else if (x > 25)
@@ -56,4 +60,7 @@ int main()
 
 	return 0;
 }
-*/
+// no returns on some important places
+// - 0.1
+
+//score 0.7/1.0

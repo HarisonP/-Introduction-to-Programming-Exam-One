@@ -23,7 +23,7 @@ int main()
 			return 0;
 		}
 		//no need of n % 3 != 0
-		// just else cloud be used
+		// just else could be used
 		if (n % 2 != 0 && n % 3 != 0)
 		{
 			n = n + 2;

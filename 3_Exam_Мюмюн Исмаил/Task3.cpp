@@ -71,7 +71,7 @@ void armstrong(int* first)
 	int copy;
 	int last_digit;
 	int size = 0;
-	// sum usually give us not enought info. this cloud be sum_of_armstrong 
+	// sum usually give us not enought info. this could be sum_of_armstrong 
 	int sum = 0;
 
 	for (int i = 0; i < 10; i++)

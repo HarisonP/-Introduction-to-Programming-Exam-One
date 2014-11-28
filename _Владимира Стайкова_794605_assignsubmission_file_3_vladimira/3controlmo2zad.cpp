@@ -10,7 +10,7 @@ int main()
 	last_digit = n % 10;
 	while (n > 0)
 	{
-		//this cloud be done smarter:
+		//this could be done smarter:
 		// -0.1
 		new_digit = n % 10;
 		n = n / 10;

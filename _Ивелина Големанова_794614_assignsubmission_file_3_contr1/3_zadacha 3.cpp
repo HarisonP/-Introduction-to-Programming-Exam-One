@@ -27,3 +27,4 @@ int main()
 	
 	return 0;
 }
+// score 0.2/(1.5 + 0.5)
