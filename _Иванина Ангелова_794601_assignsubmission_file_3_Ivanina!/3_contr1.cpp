@@ -18,6 +18,8 @@ int find_number(int x){
 		}
 		if (x==9 || x==16 || x==25)
 		{
+			// sqrt expects double
+			// -0.1	
 			x=sqrt(x);
 			cout << x << endl;
 		}
@@ -38,7 +40,8 @@ int find_number(int x){
 		return x;
 		
 	}
-
+	// no else statments 
+	// -0.2
 	int main()
 	{
 		int n;
@@ -48,10 +51,4 @@ int find_number(int x){
 		return 0;
 	}
 
-
-
-
-
-
-
-
+	// score 0.7 /1.0

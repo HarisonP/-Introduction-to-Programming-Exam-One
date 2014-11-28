@@ -1,0 +1,11 @@
+Георги Данков - 4.45
+
+
+Comment: 
+Have you done your second task alone? :) 
+
+if(you_do){
+	cout << "Bravo";
+}else{
+	cout<<"Bad for you :)"
+}

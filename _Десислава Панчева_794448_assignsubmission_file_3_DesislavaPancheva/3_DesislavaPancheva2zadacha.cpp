@@ -87,3 +87,7 @@ int main()
 	system("pause");
 	return 0;
 }
+
+// haha nice try
+// you know something but not what was needed here
+// 0.3/(1.5  + 0.5)

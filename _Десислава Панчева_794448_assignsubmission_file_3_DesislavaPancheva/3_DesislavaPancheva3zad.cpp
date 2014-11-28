@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-	/*
+	
 	int ar1[10] = { 0 };
 	int size = 10;
 
@@ -37,7 +37,7 @@ int main()
 
 		}
 	}
-*/
+
 	
 	
 	/*
@@ -52,7 +52,7 @@ int main()
 	}
 
 	cout << endl;
-
+	
 	int ar2[10] = { 0 };
 	int size2 = 10;
 
@@ -68,6 +68,7 @@ int main()
 	{
 		for (int j = 0; j < size; j++)
 		{
+			// == needed
 			if (ar1[i] = ar2[j])
 			{
 				cout << ar1[i];
@@ -78,12 +79,10 @@ int main()
 	}
 
 	*/
-
-
-
-
+	// you have pasted this thing 2 times... 
+	// from where have you copied it? :)
 	system("pause");
 	return 0;
-
-
 }
+
+//score: 0.75/ (1.5 + 0.5)

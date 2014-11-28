@@ -2,7 +2,7 @@
 #include<cmath>
 using namespace std;
 
-
+//ugly codeee
 int solve(int num)
 {
     if(num <= 0)
@@ -26,7 +26,6 @@ int solve(int num)
         else
             return (num % 10) * (num / 2 - 6);
         }
-
     return 999;
 }
 
@@ -41,3 +40,5 @@ int main()
     else cout <<"result: " << solve(number) << endl;
     return 0;
 }
+
+//score 1.0/1.0

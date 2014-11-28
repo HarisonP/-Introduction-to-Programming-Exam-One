@@ -25,9 +25,12 @@ int main()
 	if (x > 0 && x <= 12)
 	{
 		int sum2 = 0;
+		// pow expects double
+		// -0.1
 		sum2 = pow(x, 4) + pow(2, x) + 333;
 
 		cout << sum2;
+		//why 1?
 		return 1;
 	}
 
@@ -37,6 +40,9 @@ int main()
 		{
 			double x = 0;
 			double sum3 = 0;
+			//wait whatt??
+			// you need sqrt here??
+			// - 0.2
 			sum3 = fabs(x);
 
 			cout << sum3;
@@ -80,3 +86,4 @@ int main()
 	return 0;
 
 }
+//score: 0.7/1.0

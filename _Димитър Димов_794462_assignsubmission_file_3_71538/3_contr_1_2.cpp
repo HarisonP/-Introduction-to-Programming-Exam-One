@@ -14,6 +14,7 @@ int first_and_last(int number)
         }
         ncopy/=10;
     }
+    // return something here is a good practice. What if number is negative?
 }
 
 int solve(int number)
@@ -21,8 +22,13 @@ int solve(int number)
     int save = number, last_digit, new_number = 0, i = 0;
     while(save > 0)
     {
+        // what is the purpose of this?
         new_number*=10;
+        // it's ruining your program :(
+        // -0.2
        last_digit = save % 10;
+       // why last_digit != 0?
+       // -0.1
        if(last_digit % 3 == 0 && last_digit != 0)
         last_digit/= 3;
 
@@ -63,5 +69,7 @@ return number;
         cout <<"first * last= " << first_and_last(num) << endl;
         cout << solve(num) << endl;
         cout << great(num) << endl;
+        
         return 0;
     }
+//score: 1.7/(1.5 + 0.5)

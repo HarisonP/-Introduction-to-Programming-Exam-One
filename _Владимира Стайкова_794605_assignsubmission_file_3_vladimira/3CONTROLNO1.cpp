@@ -39,7 +39,7 @@ int main()
 			cout << n << endl;
 			return 0;
 		}
-		
+		// else can be used here 
 		
 		if (n % 2 == 0)
 		{
@@ -64,3 +64,7 @@ int main()
 		return 0;
 	
 }
+//the task is ok but you don't really like else statments do you?
+// -0.1
+
+//score: 0.9/1.0

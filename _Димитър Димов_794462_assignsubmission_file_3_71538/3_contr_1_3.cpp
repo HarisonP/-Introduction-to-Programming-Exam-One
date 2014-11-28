@@ -24,6 +24,8 @@ int main()
     cout << endl;
     for(int i = 0; i < n; i++)
     {
+        //not exactly...
+        // - 0.3
         for(int j = 0; j < n; j++)
         {
             if(array1[i] == array2[j])
@@ -37,6 +39,7 @@ int main()
         }
         }
     }
-
+    system("pause");
     return 0;
 }
+//score: 1.2/1.5 + 0.5
