@@ -13,7 +13,7 @@ int numbers(int number)
 		// this cloud be done smarter but you have tried to use funciont so 
 		// -0.1 + 0.1 = no points lost here.
 		first_digit = number;
-		//number = number/10; otherwise the cycle will never end
+		//number = number/10; otherwise the loop will never end
 		// -0.1
 	}
 
