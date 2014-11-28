@@ -132,7 +132,7 @@ int main2b()
 		return 0;
 }
 
-// well i am giving you 0.3 for the cycle and the the if else stucture 
+// well i am giving you 0.3 for the loop and the the if else stucture 
 // but the other stuffs are... well not ok :D
 
 //task 2:
