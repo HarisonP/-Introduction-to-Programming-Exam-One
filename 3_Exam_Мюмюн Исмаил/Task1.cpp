@@ -6,7 +6,7 @@ using namespace std;
 
 int calculate(int x)
 {
-	// = something wloud be a great practice;
+	// = something would be a great practice;
 	int function;
 
 	if (x <= 0)

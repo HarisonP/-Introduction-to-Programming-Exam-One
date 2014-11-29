@@ -116,7 +116,7 @@ int main2b()
 		else if (current % 2 == 0)
 		{
 			// pow need double for first arg:
-			// why wloud you do this
+			// why would you do this
 			x = x / (2 * (pow(10.0, counter)));
 
 		}

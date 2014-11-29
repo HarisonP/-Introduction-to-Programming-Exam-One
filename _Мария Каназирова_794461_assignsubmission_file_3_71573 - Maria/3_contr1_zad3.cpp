@@ -5,7 +5,9 @@ bool armstrong(int a)
 {
 	int counter = 0;
 	int copy_a = a;
-
+	//this could be done better:
+	// a lot better
+	// -0.1
 	while (copy_a)
 	{
 		counter++;
@@ -14,13 +16,15 @@ bool armstrong(int a)
 	copy_a = a;
 
 	int sum = 0;
-	
+
 	for (int i = 0; i < counter; i++)
 	{
+		// pow need double
+		// -0.2
 		sum += (int) pow(copy_a % 10, 3);
 		copy_a /= 10;
 	}
-
+	// return sum == a is better
 	if (sum == a)
 	{
 		return  true;
@@ -33,6 +37,7 @@ bool armstrong(int a)
 }
 bool odd(int b)
 {
+	//return  b%2==0 is better
 	if (b % 2 == 0)
 	{
 		return true;
@@ -70,6 +75,7 @@ for (int i = 0; i < size; i++)
 	}
 
 	// I didn't know how to put it in a function
+	// don't worry :)
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = 0; j < n; j++)
@@ -83,7 +89,8 @@ for (int i = 0; i < size; i++)
 		cout << endl;
 	}
 
- 
+	// nope :)
+	// - 0.5
 	for (int i = 0; i < size2; i++)
 	{
 		if (odd(y[i]))
@@ -107,3 +114,5 @@ for (int i = 0; i < size; i++)
 	system("pause");
 	return 0;
 }
+
+// score: 1.2/1.5 + 0.5

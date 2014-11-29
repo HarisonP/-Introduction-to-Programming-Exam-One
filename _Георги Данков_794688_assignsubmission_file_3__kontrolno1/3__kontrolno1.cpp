@@ -20,7 +20,7 @@ int last_digit(int n)
 }
 int main1()
 {
-	int x;// = something wloud be better
+	int x;// = something would be better
 	cin >> x;
 	if (x <= 0)
 	{

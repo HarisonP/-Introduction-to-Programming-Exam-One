@@ -22,7 +22,9 @@ int first_last(int x)
 int function_b(int b)
 {
 	int counter = 0;
-	int new_b = 0;
+	// new_b must be 1 (0 * x = 0)
+	//-0.2
+	int new_b = 1;
 	int copy_b = b;
 
 	while (copy_b)
@@ -35,7 +37,10 @@ int function_b(int b)
 
 	for (int i = 0; i < counter; i++)
 	{
+		//not ok
+		// -0.3
 		new_b *= 10;
+		// with () would be better 
 		if (copy_b % 10 % 3 == 0)
 		{
 			new_b += (copy_b % 10) / 3;
@@ -89,3 +94,5 @@ int main()
 	system("pause");
 	return 0;
 }
+
+//1.5/1.5 + 0.5
