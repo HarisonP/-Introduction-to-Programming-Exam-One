@@ -1,6 +1,6 @@
 // lilqna parakosova. cpp.cpp : Defines the entry point for the console application.  variant 3 zadacha 3
 //
-
+/*
 #include "stdafx.h"
 #include "iostream"
 #include"cmath"
@@ -14,6 +14,7 @@ int _main()
 	{
 		cout << "insert numbers";
 		cin >> arr1[i];
+		// nope :)
 		
 		if (arr1[i] % 13 != 0)
 		{
@@ -31,13 +32,13 @@ int _main()
 	}
 
 
-
-
-
 	
 	return 0;
 }
-/*
+
+// score 0.3 /1.5 + 0.5
+*/
+
 //zadacha2 
 #include"iostream"
 #include"cmath"
@@ -61,7 +62,7 @@ int _main(){
 		cout << "the number is" << x / 3;
 
 	}
-
+	// == needed
 	if (x % 3 != 0 && x % 2 = 0){
 		cout << "the namber is " << x / 2;
 	}//
@@ -76,6 +77,8 @@ int _main(){
 
 }
 
+//score : 0.3/1.5 + 0.5
+
 
 //zadacha 1 
 #include"iostream "
@@ -85,10 +88,13 @@ int main(){
 	int a = 0;
 	int x = 0;
 	cin>> x;
+	// ==  x = x+ 1???
+	// -0.2
 	for (x = 8 && x <= 25; x = x + 1)
 	{
 
 		if (x % 2 == 0){
+			// what??
 			x % 10 == a;
 			cout << a*(x / 2);
 
@@ -110,7 +116,8 @@ int main(){
 
 
 
-
+	// well nooo... 
+	// score: 0.2/1.0
 
 
 

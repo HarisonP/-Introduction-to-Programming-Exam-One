@@ -3,7 +3,7 @@
 using namespace std;
 
 int first[16], second[16], common[16], difference[16], armstrong[16];
-int size = 16;
+int size = 5;
 
 void elements()
 {
@@ -94,9 +94,14 @@ int main()
     {
         armstr( second[i] );
     }
-
+    system("pause");
     return 0;
 
 }
 
 
+// the diference has some small bug in it
+// -0.3
+// + 0.2 for clean code
+// we could debug it together if you want :)
+// score: 1.9/1.5 + 0.5

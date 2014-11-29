@@ -3,7 +3,7 @@
 
 using namespace std;
 
-const int ARR_SIZE = 10;
+const int ARR_SIZE = 3;
 
 int Find_length(int number)
 {
@@ -100,10 +100,12 @@ int main()
 	cout << "Armstrong Numbers: ";
 	for (int i = 0; i < ARR_SIZE; i++)
 	{
+		// you should make the sum here = 0
+		// -0.1
 		int copy_i = arr_two[i];
 		int number_counter = Find_length(arr_two[i]);
 
-
+		
 		while (arr_two[i] > 0)
 		{
 			int digit = arr_two[i] % 10;
@@ -126,3 +128,7 @@ int main()
 	return 0;
 
 }
+// the code is great. looks fine but the tests are not ok so 
+// -0.2
+// if you want, we could debug it together :)
+// 1.8/ 1.5 + 0.5

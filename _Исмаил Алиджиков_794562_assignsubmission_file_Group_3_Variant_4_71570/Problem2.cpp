@@ -93,3 +93,6 @@ int main()
 	system("pause");
 	return 0;
 }
+
+//niceeee 
+//score 2.0/1.5 + 0.5

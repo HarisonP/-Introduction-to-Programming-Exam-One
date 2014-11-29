@@ -43,7 +43,7 @@ int main()
         less_than_zero( x );
         return 0;
     }
-
+    //esle if could be used
     if(x > 0 && x <= 12)
     {
         between_zero_and_twelve( x );
@@ -73,3 +73,5 @@ int main()
     return 0;
 
 }
+//good :)
+// score 1.0/1.0 

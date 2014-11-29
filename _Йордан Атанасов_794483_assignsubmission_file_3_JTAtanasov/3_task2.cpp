@@ -72,7 +72,9 @@ int main()
 
     first_and_last_digits( x );
     cout << digits( x ) << endl;
+    // max is here illegal but your code is cool and cleen so i forgive you :)
     cout << max(reverse( x ) , answer) << endl;
-
+    system("pause");
     return 0;
 }
+// score 2.0/1.5 + 0.5
