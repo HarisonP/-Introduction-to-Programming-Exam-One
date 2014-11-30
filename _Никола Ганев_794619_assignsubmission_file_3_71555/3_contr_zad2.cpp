@@ -24,6 +24,7 @@ int main()
 	int new_x = 0;
 	int i = 0;
 	cout << a(x) << endl; // a)
+
 	while (copy_x != 0) // b)
 	{
 		last_digit = copy_x % 10;
@@ -59,5 +60,8 @@ int main()
 	{
 		cout << new_x << endl;
 	}
+	system("pause");
 	return 0;
 }
+
+// score: 2.0/1.5 + 0.5

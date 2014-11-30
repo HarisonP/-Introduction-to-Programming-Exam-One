@@ -12,11 +12,17 @@ int main()
 		}
 		else if ( x > 0 && x <= 12 )
 		{
+			// x^ 4 hahah nope.
+			// -0.2
 			x = x ^ 4 + 2 * x + 333;
 			cout << x << endl;
 		}
 		else if ( x > 12 && x <= 39 )
 		{
+			//sqrt == 0?? 
+			// -0.1
+			// sqrt needs double
+			// -0.1
 			if ( sqrt ( x ) == 0 )
 			{
 				cout << sqrt( x ) << endl ;
@@ -26,6 +32,7 @@ int main()
 			{ 
 			 if ( x % 2 != 0 )
 			{
+				// ^ .. repeatle error
 				x = x ^ 2 * ( x - 1 )*( x + 1 );
 				cout << x << endl;
 			}
@@ -45,3 +52,5 @@ int main()
 	return 0;
 	
 }
+
+//score: 0.6/ 1.0

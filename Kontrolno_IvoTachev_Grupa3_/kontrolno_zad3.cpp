@@ -44,3 +44,5 @@ int main()
 	system("pause") ;
 	return 0;
 }
+
+//score 1.4 / 1.5 + 0.5

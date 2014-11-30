@@ -23,6 +23,7 @@ int main()
 		 {
 			while (arrayA[i] == arrayB[j])
 			 {
+				// you don't really need countEqual
 				countEqual = arrayA[i];
 				cout << "Equal" <<  " " << countEqual << endl;
 			 }
@@ -32,6 +33,9 @@ int main()
 			{
 				for (int j = 0; j < sizeB; j++)
 				{
+					// not exactly
+					// -0.3
+					
 					while (arrayA[i] != arrayB[j])
 					{
 						countB = arrayB[i];
@@ -46,3 +50,6 @@ int main()
 	 system("PAUSE");
 	 return 0;
 }
+
+
+		 //score 1.2 / 1.5 + 0.5

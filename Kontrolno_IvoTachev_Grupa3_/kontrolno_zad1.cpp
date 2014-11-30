@@ -5,6 +5,7 @@ using namespace std;
 
 bool is_number_odd(int number)
 {
+	// return number%2 == 0 is ok
 	if ( number % 2 == 0)
 	{
 		return false;
@@ -27,6 +28,8 @@ int main()
 	}
 	else if (x > 12 && x <= 39)
 	{
+		// this cloud be done better dudeee
+		// -0.2
 		if(x == 16)
 		{
 			y = 4 ;
@@ -59,3 +62,4 @@ int main()
 	system("pause") ;
 	return 0;
 }
+//score:0.8 / 1.0

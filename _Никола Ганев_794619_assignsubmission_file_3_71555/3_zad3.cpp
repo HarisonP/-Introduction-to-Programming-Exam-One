@@ -37,6 +37,10 @@ int main()
 	// a) end
 	cout << endl;
 	// b) 
+	// nope:
+	//-0.5 
+	//here we need to choose nubmers which are not in the second and %13 != 0;
+
 	for (int i = 0; i < 10; i++)
 	{
 		if (arr_1[i] % 13 != 0)
@@ -47,3 +51,5 @@ int main()
 	// end b)
 	return 0;
 }
+
+//score: 1.0/1.5 + 0.5
