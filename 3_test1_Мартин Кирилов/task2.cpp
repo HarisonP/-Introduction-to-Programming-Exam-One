@@ -73,3 +73,5 @@ int main() {
 	system("PAUSE");
 	return 0;
 }
+// not working good for negative numbers , but i'll forgive you this
+// 2.0 / 1.5 + 0.5
