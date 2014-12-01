@@ -59,3 +59,4 @@ int main() {
 	system("PAUSE");
 	return 0;
 }
+// score 1.5 / 1.5 + 0.5 
