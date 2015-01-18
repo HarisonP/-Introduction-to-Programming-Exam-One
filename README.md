@@ -23,5 +23,6 @@ List with Results:
 Никола Ганев - 5.70 <br/>
 Роксана Пейчева - 4.10 <br/>
 Иво Тачев - 4.70 <br/>
+Мартин Кирилов  - 6.30 <br/>
+Диляна Кирилова - 2.0 <br/>
 
-var a = 0; while(a< 10) {$('.uiTextareaNoResize').val('Ti si gei'); $('#u_0_s').click(); a++ }
