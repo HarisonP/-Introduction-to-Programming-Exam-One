@@ -1,4 +1,5 @@
-Никола Ганев - 5.7
+Никола Ганев - 5.7 4.7
+Final: 5
 
 Comment: 
 You should read the tasks more carefull :)
