@@ -3,7 +3,7 @@
 
 List with Results:
 
-Симеон Танев  - 3.10  2 <strong>Final: 3</strong> <br/>
+Симеон Танев  - 3.10  2 <strong>Final: 2</strong> <br/>
 Богомил Богомилов -  3.20 3.50  <strong>Final: 3</strong><br/>
 Мюмюн Исмаил - 6.60 6.50 <strong>Final: 6 </strong> <br/>
 Борис Алтънов - 3.80  4.60 ++ <strong>Final: 5</strong> <br/>
