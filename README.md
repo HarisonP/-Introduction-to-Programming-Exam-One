@@ -7,7 +7,7 @@ List with Results:
 Богомил Богомилов -  3.20 3.50  <strong>Final: 3</strong><br/>
 Мюмюн Исмаил - 6.60 6.50 <strong>Final: 6 </strong> <br/>
 Борис Алтънов - 3.80  4.60 ++ <strong>Final: 5</strong> <br/>
-Виктория Печенякова - 2.80  2 (only sln file) <br/>
+Виктория Печенякова - 2.80  2 ++ (3.4 )(only sln file) <strong>Final: 3</strong <br/>
 Владимира Стайкова - 4.20 3.4 <strong>Final: 4</strong> <br/>
 Георги Данков - 4.45 4.9 <strong>Final: 5</strong> <br/>
 Десислава Панчева - 3.75 3.30 <strong>Final: 4</strong><br/>
