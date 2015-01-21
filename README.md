@@ -24,7 +24,7 @@ List with Results:
 Роксана Пейчева - 4.10 3.3 <strong>Final: 4</strong><br/>
 Иво Тачев - 4.70 4.70 <strong>Final: 5</strong> <br/>
 Мартин Кирилов  - 6.30 4.80  <strong>Final: 6</strong> <br/>
-Диляна Кирилова - 2.0(only sln file) 4.9 <strong>Final: 4</strong> <br/>
+Диляна Кирилова - 2.0(only sln file) 4.9 ++ <strong>Final: 5</strong> <br/>
 Мирела Влаева - ??(i think it was 3+) + 2.5 <strong>Final: 3(may be)</strong><br/>
 
 <h3><strong>The not satisfied students, are free to come and show me their powers! (21.01.2015)</strong></h3>
